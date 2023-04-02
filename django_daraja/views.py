@@ -21,7 +21,7 @@ def oauth_success(request):
 	return JsonResponse(r, safe=False)
 
 def stk_push_success(request):
-	phone_number = config('LNM_PHONE_NUMBER')
+	phone_number = '0714862024'
 	amount = 1
 	account_reference = 'ABC001'
 	transaction_desc = 'STK Push Description'
